@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+*.log
+
+
+
+---
+
+## ✅ Step 2 — Add `.gitignore`
+
+In your root, create `.gitignore`:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tableau (optional large files)
+*.twb
+*.twbx
